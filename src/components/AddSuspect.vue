@@ -35,6 +35,140 @@
                             <div class="tab-pane active show" id="basictab1" role="tabpanel">
                                 <div class="class_content">
 
+                                    <div class="row g-2">
+                                        <div class="mb-3 col-md-6">
+                                            <label for="lastname" class="form-label">SURNAME:</label>
+                                            <input type="text" class="form-control form-control-sm shadow-none " id="surname" placeholder="">
+                                        </div>
+                                        <div class="mb-3 col-md-6">
+                                            <label for="first_name" class="form-label">FIRST NAME:</label>
+                                            <input type="text" class="form-control form-control-sm shadow-none" id="first_name" placeholder="">
+                                        </div>
+                                    </div>
+
+                                    <div class="row g-2">
+                                        <div class="mb-3 col-md-6">
+                                            <label for="middlename" class="form-label">MIDDLE NAME:</label>
+                                            <input type="text" class="form-control form-control-sm shadow-none " id="middlename" placeholder="">
+                                        </div>
+                                        <div class="mb-3 col-md-6">
+                                            <label for="alias" class="form-label">ALIAS:</label>
+                                            <input type="text" class="form-control form-control-sm shadow-none" id="alias" placeholder="">
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="row g-4">
+                                        <div class="mb-3 col-md-4">
+                                            <label for="date_of_birth" class="form-label">DATE OF BIRTH:</label>
+                                            <input type="date" class="form-control form-control-sm shadow-none " id="date_of_birth" placeholder="">
+                                        </div>
+                                        <div class="mb-3 col-md-2">
+                                            <label for="age" class="form-label">AGE:</label>
+                                            <input type="text" class="form-control form-control-sm shadow-none" id="age" placeholder="">
+                                        </div>
+                                        <div class="mb-3 col-md-3">
+                                            <label for="sex" class="form-label">SEX:</label>
+                                            <select id="sex" class="form-select form-control-sm shadow-none">
+                                                <option>Choose</option>
+                                                <option>MALE</option>
+                                                <option>FEMALE</option>
+                                              
+                                            </select>
+                                        </div>
+                                        <div class="mb-3 col-md-3">
+                                            <label for="height" class="form-label">HEIGHT<span class="sublabel">METRE(s)</span>:</label>
+                                            <input type="text" class="form-control form-control-sm shadow-none" id="height" placeholder="">
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                    <div class="row g-3">
+                                        <div class="mb-3 col-md-4">
+                                            <label for="nose" class="form-label">NOSE:</label>
+                                            <input type="text" class="form-control form-control-sm shadow-none " id="nose" placeholder="">
+                                        </div>
+                                        <div class="mb-3 col-md-4">
+                                            <label for="age" class="form-label">EYES:</label>
+                                            <input type="text" class="form-control form-control-sm shadow-none" id="eye" placeholder="">
+                                        </div>
+                                       
+                                        <div class="mb-3 col-md-4">
+                                            <label for="masks" class="form-label">MASKS:</label>
+                                            <input type="text" class="form-control form-control-sm shadow-none" id="masks" placeholder="">
+                                        </div>
+                                    </div>
+
+                                    <div class="row g-3">
+                                        <div class="mb-3 col-md-4">
+                                            <label for="place_of_birth" class="form-label">PLACE OF BIRTH:</label>
+                                            <input type="text" class="form-control form-control-sm shadow-none " id="place_of_birth" placeholder="">
+                                        </div>
+                                        <div class="mb-3 col-md-4">
+                                            <label for="native_of" class="form-label">NATIVE OF:</label>
+                                            <input type="text" class="form-control form-control-sm shadow-none" id="native_of" placeholder="">
+                                        </div>
+                                       
+                                        <div class="mb-3 col-md-4">
+                                            <label for="masks" class="form-label">TRIBE/RACE:</label>
+                                            <input type="text" class="form-control form-control-sm shadow-none" id="masks" placeholder="">
+                                        </div>
+                                    </div>
+
+                                    <div class="row g-3">
+                                        <div class="mb-3 col-md-4">
+                                            <label for="place_of_birth" class="form-label">PLACE OF BIRTH:</label>
+                                            <input type="text" class="form-control form-control-sm shadow-none " id="place_of_birth" placeholder="">
+                                        </div>
+                                        <div class="mb-3 col-md-4">
+                                            <label for="native_of" class="form-label">NATIVE OF:</label>
+                                            <input type="text" class="form-control form-control-sm shadow-none" id="native_of" placeholder="">
+                                        </div>
+                                       
+                                        <div class="mb-3 col-md-4">
+                                            <label for="masks" class="form-label">TRIBE/RACE:</label>
+                                            <input type="text" class="form-control form-control-sm shadow-none" id="masks" placeholder="">
+                                        </div>
+                                    </div>
+
+                                    
+                                    <div class="mb-3">
+                                        <label for="inputAddress" class="form-label">Address</label>
+                                        <input type="text" class="form-control form-control-sm shadow-none" id="inputAddress" placeholder="1234 Main St">
+                                    </div>
+                                    
+                                    <div class="mb-3">
+                                        <label for="inputAddress2" class="form-label">Address 2</label>
+                                        <input type="text" class="form-control form-control-sm shadow-none" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                                    </div>
+                                                
+                                    <div class="row g-2">
+                                        <div class="mb-3 col-md-6">
+                                            <label for="inputCity" class="form-label">City</label>
+                                            <input type="text" class="form-control form-control-sm shadow-none" id="inputCity">
+                                        </div>
+                                        <div class="mb-3 col-md-4">
+                                            <label for="inputState" class="form-label">State</label>
+                                            <select id="inputState" class="form-select">
+                                                <option>Choose</option>
+                                                <option>MALE</option>
+                                                <option>FEMALE</option>
+                                                <option>Option 3</option>
+                                            </select>
+                                        </div>
+                                        <div class="mb-3 col-md-2">
+                                            <label for="inputZip" class="form-label">Zip</label>
+                                            <input type="text" class="form-control form-control-sm shadow-none" id="inputZip">
+                                        </div>
+                                    </div>
+                                
+                                    <div class="mb-2">
+                                        <div class="form-check">
+                                            <input type="checkbox" class="form-check-input" id="customCheck11">
+                                            <label class="form-check-label" for="customCheck11">Check this custom checkbox</label>
+                                        </div>
+                                    </div>
                                 </div>
 
                                 <ul class="list-inline wizard mb-0">
@@ -108,6 +242,49 @@ a{
     .class_content{
         min-width: 750px;
         min-height: 400px;
-        background-color: rgb(218, 218, 255);
+        background-color:  #fff!important;
+        padding: 1rem;
     }
+
+    label{
+        color: #000;
+    }
+    
+
+    .form-control {
+        outline: 0!important;
+      
+    }
+    input,select{
+        outline: 0!important;
+        border-radius: 0%;
+        
+      }
+     
+    
+      button{
+        width: 100%;
+        background-color: #09123e;
+        border: none;
+      }
+      button:hover{
+        background-color: white;
+        color: #09123e;
+        border: #09123e solid;
+      }
+    .sublabel{font-size:small;color:burlywood}
+      textarea:focus, 
+textarea.form-control:focus, 
+input.form-control:focus, 
+input[type=text]:focus, 
+input[type=password]:focus, 
+input[type=email]:focus, 
+input[type=number]:focus, 
+[type=text].form-control:focus, 
+[type=password].form-control:focus, 
+[type=email].form-control:focus, 
+[type=tel].form-control:focus, 
+[contenteditable].form-control:focus {
+  box-shadow: inset 0 -1px 0 #ddd;
+}
 </style>
