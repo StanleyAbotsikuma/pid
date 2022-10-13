@@ -99,7 +99,7 @@
                                             <input type="text" class="form-control form-control-sm shadow-none" id="masks" placeholder="">
                                         </div>
                                     </div>
-
+                                    <hr style="color:#09123e">
                                     <div class="row g-3">
                                         <div class="mb-3 col-md-4">
                                             <label for="place_of_birth" class="form-label">PLACE OF BIRTH:</label>
@@ -116,23 +116,58 @@
                                         </div>
                                     </div>
 
+                                   
                                     <div class="row g-3">
                                         <div class="mb-3 col-md-4">
-                                            <label for="place_of_birth" class="form-label">PLACE OF BIRTH:</label>
-                                            <input type="text" class="form-control form-control-sm shadow-none " id="place_of_birth" placeholder="">
+                                            <label for="district" class="form-label">DISTRICT:</label>
+                                            <input type="text" class="form-control form-control-sm shadow-none " id="district" placeholder="">
                                         </div>
                                         <div class="mb-3 col-md-4">
-                                            <label for="native_of" class="form-label">NATIVE OF:</label>
-                                            <input type="text" class="form-control form-control-sm shadow-none" id="native_of" placeholder="">
+                                            <label for="region" class="form-label">REGION:</label>
+                                            <input type="text" class="form-control form-control-sm shadow-none" id="region" placeholder="">
                                         </div>
                                        
                                         <div class="mb-3 col-md-4">
-                                            <label for="masks" class="form-label">TRIBE/RACE:</label>
-                                            <input type="text" class="form-control form-control-sm shadow-none" id="masks" placeholder="">
+                                            <label for="religion" class="form-label">RELIGION:</label>
+                                            <input type="text" class="form-control form-control-sm shadow-none" id="religion" placeholder="">
+                                        </div>
+                                    </div>
+<hr style="color:#09123e">
+                                    <div class="row g-2">
+                                        <div class="mb-3 col-md-6">
+                                            <label for="occupation" class="form-label">OCCUPATION:</label>
+                                            <input type="text" class="form-control form-control-sm shadow-none " id="occupation" placeholder="">
+                                        </div>
+                                        <div class="mb-3 col-md-6">
+                                            <label for="residential_address" class="form-label">RESIDENTIAL ADDRESS:</label>
+                                            <input type="address" class="form-control form-control-sm shadow-none" id="residential_address" placeholder="1234 Main St">
+                                           </div>
+                                       
+                                    </div>
+
+                                    <div class="row g-2">
+                                        <div class="mb-3 col-md-6">
+                                            <label for="residence_district" class="form-label">DISTRICT:</label>
+                                            <input type="text" class="form-control form-control-sm shadow-none " id="residence_district" placeholder="">
+                                        </div>
+                                        <div class="mb-3 col-md-6">
+                                            <label for="residence_region" class="form-label">REGION:</label>
+                                            <input type="text" class="form-control form-control-sm shadow-none" id="residence_district" placeholder="">
                                         </div>
                                     </div>
 
-                                    
+                                    <div class="row g-2">
+                                        <div class="mb-3 col-md-6">
+                                            <label for="tel" class="form-label">TEL:</label>
+                                            <input type="tel" class="form-control form-control-sm shadow-none " id="tel" placeholder="">
+                                        </div>
+                                        <div class="mb-3 col-md-6">
+                                            <label for="email" class="form-label">EMAIL:</label>
+                                            <input type="email" class="form-control form-control-sm shadow-none" id="email" placeholder="">
+                                        </div>
+                                    </div>
+                                    <hr style="color:#09123e">
+
                                     <div class="mb-3">
                                         <label for="inputAddress" class="form-label">Address</label>
                                         <input type="text" class="form-control form-control-sm shadow-none" id="inputAddress" placeholder="1234 Main St">
