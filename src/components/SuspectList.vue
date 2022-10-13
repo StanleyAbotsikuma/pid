@@ -2,27 +2,25 @@
     <h2 class="display-4 " style="font-weight:bolder;color:#09123e">Suspect List</h2>
 
     <div class="separator"></div>
-<div class="container-fluid" style="background-color:white">
+<div class="container-fluid" style="background-color:white;min-width:650px">
     <table class="table table-striped table-centered mb-0">
         <thead>
             <tr>
+                <th>Suspect ID</th>
+                <th>Last Name</th>
+                <th>First Name</th>
+                <th>Telephone</th>
+                <th>Date Of Birth</th>
                 <th>User</th>
                 <th>Account No.</th>
                 <th>Balance</th>
-                <th>Action</th>
-                <th>User</th>
-                <th>Account No.</th>
-                <th>Balance</th>
-                <th>Action</th>
-                <th>User</th>
-                <th>Account No.</th>
-                <th>Account No.</th>
+                <th>Action</th>   
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td class="table-user">
-                    <img src="assets/images/users/avatar-2.jpg" alt="table-user" class="me-2 rounded-circle" />
+                    <img src="https://p.kindpng.com/picc/s/668-6689202_avatar-profile-hd-png-download.png" alt="table-user" class="me-2 rounded-circle" />
                     Risa D. Pearson
                 </td>
                 <td>AC336 508 2157</td>
@@ -34,7 +32,7 @@
             </tr>
             <tr>
                 <td class="table-user">
-                    <img src="assets/images/users/avatar-3.jpg" alt="table-user" class="me-2 rounded-circle" />
+                    <img src="https://p.kindpng.com/picc/s/668-6689202_avatar-profile-hd-png-download.png" alt="table-user" class="me-2 rounded-circle" />
                     Ann C. Thompson
                 </td>
                 <td>SB646 473 2057</td>
@@ -46,7 +44,7 @@
             </tr>
             <tr>
                 <td class="table-user">
-                    <img src="assets/images/users/avatar-4.jpg" alt="table-user" class="me-2 rounded-circle" />
+                    <img src="https://p.kindpng.com/picc/s/668-6689202_avatar-profile-hd-png-download.png" alt="table-user" class="me-2 rounded-circle" />
                     Paul J. Friend
                 </td>
                 <td>DL281 308 0793</td>
@@ -58,7 +56,7 @@
             </tr>
             <tr>
                 <td class="table-user">
-                    <img src="assets/images/users/avatar-5.jpg" alt="table-user" class="me-2 rounded-circle" />
+                    <img src="https://p.kindpng.com/picc/s/668-6689202_avatar-profile-hd-png-download.png" alt="table-user" class="me-2 rounded-circle" />
                     Sean C. Nguyen
                 </td>
                 <td>CA269 714 6825</td>

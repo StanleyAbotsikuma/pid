@@ -275,7 +275,7 @@ a{
     }
 
     .class_content{
-        min-width: 750px;
+        min-width: 650px;
         min-height: 400px;
         background-color:  #fff!important;
         padding: 1rem;
