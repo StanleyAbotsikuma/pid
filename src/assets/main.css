@@ -1,5 +1,4 @@
 @import "./base.css";
-
 #app {
   max-width: 1280px;
   margin: 0 auto;
@@ -29,9 +28,9 @@ a,
   }
 
   #app {
-    /* display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem; */
+     display: block;
+    /* grid-template-columns: 1fr 1fr; */
+    padding: 0 2rem; 
   }
 
 
@@ -48,14 +47,17 @@ a,
 
 .page-content {
   width: calc(100% - 17rem);
-  margin-left: 17rem;
+  margin-left: 15rem;
   transition: all 0.4s;
+  display: block;
+  position: relative;
+  overflow: auto;
 }
 
 /* for toggle behavior */
 
 #sidebar.active {
-  margin-left: -17rem;
+  margin-left: -15rem;
 }
 
 #content.active {

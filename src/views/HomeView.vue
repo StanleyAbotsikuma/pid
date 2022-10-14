@@ -47,3 +47,11 @@ export default {
 
 </template>
 
+<style scoped>
+#content{
+  display: block;
+  position: relative;
+  
+}
+</style>
+

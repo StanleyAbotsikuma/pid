@@ -15,7 +15,7 @@ fn login(username: &str,password: &str) -> String {
    
 }
 #[tauri::command]
-fn initializeSystemWindow()
+fn initializesystemwindowowow()
 {
   // window.set_size(Size::Logical(LogicalSize { width: 100.0, height: 100.0 })).unwrap();
 // or
@@ -24,7 +24,7 @@ fn initializeSystemWindow()
 fn main() {
    tauri::Builder::default()
     // Add this line
-    .invoke_handler(tauri::generate_handler![login,initializeSystemWindow])
+    .invoke_handler(tauri::generate_handler![login,initializesystemwindowowow])
     .run(tauri::generate_context!())
     .expect("error while running tauri application");
 }
