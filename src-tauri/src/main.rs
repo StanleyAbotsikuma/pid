@@ -5,7 +5,7 @@
 
 #[tauri::command]
 fn login(username: &str,password: &str) -> String {
-  if username == "a" && password=="1"
+  if username == "admin" && password=="admin"
   {
     return format!("success") ;
   }

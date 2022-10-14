@@ -15,14 +15,14 @@
    
             <div class="form-outline">
                 <label class="form-label" for="form2Example1">Username</label>
-              <input type="email" id="form2Example1" class="form-control shadow-none" />
+              <input type="email" id="username" class="form-control shadow-none" :value="username" />
             
             </div>
           
             <!-- Password input -->
             <div class="form-outline ">
                 <label class="form-label" for="form2Example2">Password</label>
-              <input type="password" id="form2Example2" class="form-control shadow-none" />
+              <input type="password" id="password" class="form-control shadow-none" :value="password" />
             </div>
           
             <!-- 2 column grid layout for inline styling -->
@@ -71,11 +71,19 @@ input{
 <script>
 import { invoke } from '@tauri-apps/api';
 export default {
+  data(){
+    return{
+username:"",
+password:""
+    }
+  },
     methods:{
          async login(e)
         {
 e.preventDefault();
-await invoke("login", { username: "a",password:"1" }).then((e)=>{
+let uname = document.getElementById("username").value;
+let password = document.getElementById("password").value;
+await invoke("login", { username: uname,password:password }).then((e)=>{
   if(e =="success")
   {
      this.$router.push("home");
