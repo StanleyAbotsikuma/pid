@@ -17,6 +17,7 @@
         <a href="#" class="nav-link text-dark font-italic" @click="routePage('Dashboard')">
                   <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
                   Dashboard
+                  
               </a>
       </li>
       <li class="nav-item" v-bind:class = "(p_route==='AddSuspect')?'active':''">
@@ -39,16 +40,16 @@
       </li>
     </ul>
   <hr>
-  <div style="bottom:0px;width:100%;position:absolute;height:200px">
-    <ul class="nav flex-columnmb-0">
+  <div style="bottom:0px;width:100%;position:absolute;height:193px;background-color:#fff">
+    <ul class="nav ">
       <li class="nav-item">
-        <a href="#" class="nav-link text-dark font-italic" @click="signin">
+        <a href="#" class="nav-link text-dark font-italic btn" @click="signin" style="color: #015de7!important; font-weight: 500;">
                   <i class="fa fa-area-chart mr-3 text-primary fa-fw"></i>
                   Sign out
               </a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link text-dark font-italic" style="color: #015de7!important; font-weight: 500;" @click="exit">
+        <a href="#" class="nav-link text-dark font-italic btn" style="color: #015de7!important; font-weight: 500;" @click="exit">
                   <i class="fa fa-bar-chart mr-3 text-primary fa-fw"></i>
                  Exit
               </a>

@@ -11,7 +11,7 @@
                   <i class="mdi mdi-account-multiple widget-icon"></i>
               </div>
               <p class="lead mb-0 text-muted">Today</p>
-              <h3 class="mt-3 mb-3">36,254</h3>
+              <h3 class="mt-3 mb-3">3</h3>
             
           </div> <!-- end card-body-->
       </div> <!-- end card-->
@@ -22,12 +22,9 @@
             <div class="float-end">
                 <i class="mdi mdi-account-multiple widget-icon"></i>
             </div>
-            <h5 class="text-muted fw-normal mt-0" title="Number of Customers">Customers</h5>
+            <h5 class="text-muted fw-normal mt-0" title="Number of Customers">Male</h5>
             <h3 class="mt-3 mb-3">36,254</h3>
-            <p class="mb-0 text-muted">
-                <span class="text-success me-2"><i class="mdi mdi-arrow-up-bold"></i> 5.27%</span>
-                <span class="text-nowrap">Since last month</span>  
-            </p>
+        
         </div> <!-- end card-body-->
     </div> <!-- end card-->
 </div>
@@ -37,12 +34,9 @@
           <div class="float-end">
               <i class="mdi mdi-account-multiple widget-icon"></i>
           </div>
-          <h5 class="text-muted fw-normal mt-0" title="Number of Customers">Customers</h5>
-          <h3 class="mt-3 mb-3">36,254</h3>
-          <p class="mb-0 text-muted">
-              <span class="text-success me-2"><i class="mdi mdi-arrow-up-bold"></i> 5.27%</span>
-              <span class="text-nowrap">Since last month</span>  
-          </p>
+          <h5 class="text-muted fw-normal mt-0" title="Number of Customers">Female</h5>
+          <h3 class="mt-3 mb-3">4</h3>
+        
       </div> <!-- end card-body-->
   </div> <!-- end card-->
 </div>
@@ -52,12 +46,9 @@
           <div class="float-end">
               <i class="mdi mdi-account-multiple widget-icon"></i>
           </div>
-          <h5 class="text-muted fw-normal mt-0" title="Number of Customers">Customers</h5>
+          <h5 class="text-muted fw-normal mt-0" title="Number of Customers">Total</h5>
           <h3 class="mt-3 mb-3">36,254</h3>
-          <p class="mb-0 text-muted">
-              <span class="text-success me-2"><i class="mdi mdi-arrow-up-bold"></i> 5.27%</span>
-              <span class="text-nowrap">Since last month</span>  
-          </p>
+      
       </div> <!-- end card-body-->
   </div> <!-- end card-->
 </div>
