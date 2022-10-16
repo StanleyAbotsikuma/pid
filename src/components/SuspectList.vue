@@ -13,30 +13,30 @@
                       <th>#ID</th>
                       <th>Full Name</th>
                       <th>Telephone</th>
-                      <th>Username</th>
-                      <th>Status</th>
+                      <th>Date Of Registration</th>
+                      <th>Offence No.</th>
                       <th>Actions</th>
                     
                      
                     </tr>
                   </thead>
                   <tbody>
-                    <tr class="alert" role="alert">
+                    <tr v-for="n in 10" class="alert" role="alert" :key="n" >
                         <td>
-                            1
+                           {{n}}
                         </td>
                       <td class="d-flex align-items-center">
                           <img class="img" src="../assets/logo.png">
                           <div class="pl-3 email">
-                              <span>markotto@email.com</span>
-                              <span>markotto@email.com</span>
-                              <span>Added: 01/03/2020</span>
+                              <span>Last Name</span>
+                              <span>First Name, Other-Names</span>
+                              <span>mail@gmail.com</span>
                           </div>
                       </td>
-                      <td>Markotto89</td>
-                      <td>Markotto89</td>
-                      <td>Markotto89</td>
-                      <td><a href="#" class="btn">   <font-awesome-icon icon="fas fa-sign-out" />View</a></td>
+                      <td>0552711468</td>
+                      <td><span>01/03/2020</span></td>
+                      <td>OFF00{{1}}</td>
+                      <td><a href="#" class="btn">   <font-awesome-icon icon="fas fa-pen" /></a></td>
                   
                     </tr>
              

@@ -193,6 +193,44 @@
                                     </div>
                                 </div>
                                 <hr style="color:#09123e">
+                                <div class="row g-3">
+                                    <div class="mb-3 col-md-4">
+                                        <label for="id_type" class="form-label">ID TYPE:</label>
+                                        <select id="id_type" class="form-select form-control-sm shadow-none">
+                                            <option>Choose</option>
+                                            <option>NATIONAL ID</option>
+                                            <option>DRIVERS LICENCE</option>
+                                            <option>SSNIT</option>
+                                            <option>PASSPORT</option>
+                                            <option>VOTERS ID</option>
+                                            <option>HEALTH INSURANCE</option>
+
+                                        </select>
+                                    </div>
+                                    <div class="mb-3 col-md-4">
+                                        <label for="email" class="form-label">ID NO. :</label>
+                                        <input type="email" class="form-control form-control-sm shadow-none" id="email"
+                                            placeholder="">
+                                    </div>
+                                    <div class="mb-3 col-md-4">
+                                        <label for="doi" class="form-label">DOI:</label>
+                                        <input type="date" class="form-control form-control-sm shadow-none "
+                                        id="doi" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="row g-2">
+                                    <div class="mb-3 col-md-6">
+                                        <label for="poi" class="form-label">POI:</label>
+                                        <input type="text" class="form-control form-control-sm shadow-none " id="poi"
+                                            placeholder="">
+                                    </div>
+                                    <div class="mb-3 col-md-6">
+                                        <label for="expiry_date" class="form-label">EXPIRY DATE:</label>
+                                        <input type="date" class="form-control form-control-sm shadow-none "
+                                        id="expiry_date" placeholder="">
+                                    </div>
+                                </div>
+                                <hr style="color:#09123e">
                                 <div class="mb-3 col-md-3">
                                     <label for="marital_status" class="form-label">MARITAL STATUS:</label>
                                     <select id="marital_status" class="form-select form-control-sm shadow-none" v-model="marital_status">
@@ -225,18 +263,18 @@
 
                                 <div class="row g-3">
                                     <div class="mb-3 col-md-4">
-                                        <label for="district" class="form-label">DISTRICT:</label>
+                                        <label for="name_of_father" class="form-label">NAME OF FATHER:</label>
                                         <input type="text" class="form-control form-control-sm shadow-none "
-                                            id="district" placeholder="">
+                                            id="name_of_father" placeholder="">
                                     </div>
                                     <div class="mb-3 col-md-4">
-                                        <label for="region" class="form-label">REGION:</label>
-                                        <input type="text" class="form-control form-control-sm shadow-none" id="region"
+                                        <label for="address_of_father" class="form-label">ADDRESS OF FATHER:</label>
+                                        <input type="text" class="form-control form-control-sm shadow-none" id="address_of_father"
                                             placeholder="">
                                     </div>
 
                                     <div class="mb-3 col-md-4">
-                                        <label for="religion" class="form-label">RELIGION:</label>
+                                        <label for="telephone_of_father" class="form-label">TELEPHONE OF FATHER:</label>
                                         <input type="text" class="form-control form-control-sm shadow-none"
                                             id="religion" placeholder="">
                                     </div>
@@ -244,69 +282,47 @@
 
                                 <div class="row g-3">
                                     <div class="mb-3 col-md-4">
-                                        <label for="district" class="form-label">DISTRICT:</label>
+                                        <label for="name_of_mother" class="form-label">NAME OF MOTHER:</label>
                                         <input type="text" class="form-control form-control-sm shadow-none "
-                                            id="district" placeholder="">
+                                            id="name_of_mother" placeholder="">
                                     </div>
                                     <div class="mb-3 col-md-4">
-                                        <label for="region" class="form-label">REGION:</label>
+                                        <label for="address_of_mother" class="form-label">ADDRESS OF MOTHER:</label>
                                         <input type="text" class="form-control form-control-sm shadow-none" id="region"
                                             placeholder="">
                                     </div>
 
                                     <div class="mb-3 col-md-4">
-                                        <label for="religion" class="form-label">RELIGION:</label>
+                                        <label for="telephone_of_mother" class="form-label">TELEPHONE OF MOTHER:</label>
                                         <input type="text" class="form-control form-control-sm shadow-none"
-                                            id="religion" placeholder="">
+                                            id="telephone_of_mother" placeholder="">
                                     </div>
                                 </div>
-                                 
+                                <hr style="color:#09123e">
+                                <center><span class="sublabel">FOR FOREIGN NATIONALS ONLY</span></center> 
                                 <div class="mb-3">
-                                    <label for="inputAddress" class="form-label">Address</label>
+                                    <label for="aboard_address" class="form-label">ABROAD ADDRESS:</label>
                                     <input type="text" class="form-control form-control-sm shadow-none"
-                                        id="inputAddress" placeholder="1234 Main St">
+                                        id="aboard_address" placeholder="1234 Main St">
                                 </div>
-
-                                <div class="mb-3">
-                                    <label for="inputAddress2" class="form-label">Address 2</label>
-                                    <input type="text" class="form-control form-control-sm shadow-none"
-                                        id="inputAddress2" placeholder="Apartment, studio, or floor">
-                                </div>
-
                                 <div class="row g-2">
                                     <div class="mb-3 col-md-6">
-                                        <label for="inputCity" class="form-label">City</label>
-                                        <input type="text" class="form-control form-control-sm shadow-none"
-                                            id="inputCity">
+                                        <label for="state" class="form-label">STATE/REGION:</label>
+                                        <input type="text" class="form-control form-control-sm shadow-none "
+                                            id="state" placeholder="">
                                     </div>
-                                    <div class="mb-3 col-md-4">
-                                        <label for="inputState" class="form-label">State</label>
-                                        <select id="inputState" class="form-select">
-                                            <option>Choose</option>
-                                            <option>MALE</option>
-                                            <option>FEMALE</option>
-                                            <option>Option 3</option>
-                                        </select>
-                                    </div>
-                                    <div class="mb-3 col-md-2">
-                                        <label for="inputZip" class="form-label">Zip</label>
+                                    <div class="mb-3 col-md-6">
+                                        <label for="country" class="form-label">COUNTRY:</label>
                                         <input type="text" class="form-control form-control-sm shadow-none"
-                                            id="inputZip">
+                                            id="country" placeholder="">
                                     </div>
                                 </div>
-
-                                <div class="mb-2">
-                                    <div class="form-check">
-                                        <input type="checkbox" class="form-check-input" id="customCheck11">
-                                        <label class="form-check-label" for="customCheck11">Check this custom
-                                            checkbox</label>
-                                    </div>
+                                <hr style="color:#09123e">
                                 </div>
-                            </div>
 
                             <ul class="list-inline wizard mb-0">
                                 <li class="next list-inline-item float-end">
-                                    <a href="javascript:void(0);" class="btn btn-info">Add More Info <i
+                                    <a href="#" class="btn btn-info">Add More Info <i
                                             class="mdi mdi-arrow-right ms-1"></i></a>
                                 </li>
                             </ul>
@@ -358,7 +374,7 @@ export default {
     data()
     {
         return{
-            marital_status:""
+            marital_status:"SINGLE"
         }
     }
 }
@@ -414,10 +430,12 @@ select {
 .spouse_false{
     display: none;
 }
-button {
+button,.btn {
     width: 100%;
     background-color: #09123e;
     border: none;
+    color: white!important;
+    border-radius: 0%;
 }
 
 button:hover {

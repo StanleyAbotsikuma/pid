@@ -68,9 +68,12 @@ a {
   color:aliceblue!important
 }
 
+
 </style>
 <script>
 import { confirm } from '@tauri-apps/api/dialog';
+import { invoke } from '@tauri-apps/api/tauri'
+
 export default {
   data()
   {
@@ -97,12 +100,13 @@ methods: {
     text = "You canceled!";
   }
     },
-    exit()
+    async exit()
     {
       let text = "Do you want to exit this system?";
-  if (confirm(text) == true) {
-    text = "You pressed OK!";
-  } else {
+      // invoke("endapp");
+  if (await confirm(text) == true) {
+    invoke("endapp");
+    } else {
     text = "You canceled!";
   }
     }
